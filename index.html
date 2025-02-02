@@ -40,7 +40,8 @@
     
                     <div class="mb-3">
                         <label for="email" class="form-label">Correo electrónico:</label>
-                        <input type="email" class="form-control" id="email" name="email" required>
+                        <input type="email" class="form-control" id="email" name="email" 
+           pattern="^[^@\s]+@[^@\s]+\.com$" required>
                         <div class="valid-feedback">Válido</div>
                         <div class="invalid-feedback">Por favor, complete el correo correctamente.</div>                    
                     </div>
